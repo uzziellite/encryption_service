@@ -1,4 +1,4 @@
-# Django Secure Messages
+# Secure Messages
 
 A secure and versatile encryption package for Python applications, including Django support, providing robust 4096-bit RSA encryption and AES-256 for secure message encryption.
 
@@ -7,13 +7,7 @@ A secure and versatile encryption package for Python applications, including Dja
 Install the package via pip:
 
 ```bash
-pip install encryption_service
-```
-
-To include optional Django support:
-
-```bash
-pip install encryption_service[django]
+pip install git+https://github.com/uzziellite/encryption_service.git
 ```
 
 ## Quick Start
